@@ -6,9 +6,9 @@ const assertFail = require("./helpers/assertFail");
 
 contract('Check ICO Sale', function (accounts) {
 
-  var saleStartTime = 1512129600;
-  var saleEndTime = 1517400000;
-
+  var saleStartTime = 1512475200;
+  var saleEndTime = 1517832000;
+  
   var OWNER = accounts[0];
   var TEAM = "0x03c3CD159170Ab0912Cd00d7cACba79694A32127";
   var MARKETTING = "0x135B6526943e15fD68EaA05be73f24d641c332D8";
