@@ -22,9 +22,10 @@ contract RealLandCrowdSale is TokenController, Ownable {
   address public team = 0x03c3CD159170Ab0912Cd00d7cACba79694A32127;
   address public marketting = 0x135B6526943e15fD68EaA05be73f24d641c332D8;
   address public ipoPlatform = 0x8A8eCFDf0eb6f8406C0AD344a6435D6BAf3110e4;
-  uint256 public teamPercentage = 38461538461538500000; //% * 10**18
-  uint256 public markettingPercentage = 19230769230769200000; //% * 10**18
-  uint256 public ipoPlatformPercentage = 42307692307692300000; //% * 10**18
+  uint256 public teamPercentage = 25000000000000000000; //% * 10**18
+  uint256 public markettingPercentage = 25000000000000000000; //% * 10**18
+  uint256 public ipoPlatformPercentage = 50000000000000000000; //% * 10**18
+                                         
   bool public tokensAllocated = false;
 
   modifier saleOpen {
