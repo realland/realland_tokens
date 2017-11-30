@@ -74,9 +74,9 @@ contract('Check ICO Sale', function (accounts) {
     var marketting_balance = await realLandToken.balanceOf(MARKETTING);
     var ipo_platform_balance = await realLandToken.balanceOf(IPO_PLATFORM);
 
-    var expected_team_balance = 2653846153846158;//6900000000000000 - (expected_marketting_balance + expected_ipo_platform_balance);
-    var expected_marketting_balance = 1326923076923074;//6900000000000000 * (3.5/18.2);
-    var expected_ipo_platform_balance = 2919230769230768;//6900000000000000 * (7.7/18.2);
+    var expected_team_balance = 1725000000000000;//6900000000000000 - (expected_marketting_balance + expected_ipo_platform_balance);
+    var expected_marketting_balance = 1725000000000000;//6900000000000000 * (25%);
+    var expected_ipo_platform_balance = 3450000000000000;//6900000000000000 * (25%);
 
     assert.equal(team_balance.toNumber(), expected_team_balance,"Team balance set correctly");
     assert.equal(marketting_balance.toNumber(), expected_marketting_balance,"Marketting balance set correctly");
