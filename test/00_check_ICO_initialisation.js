@@ -7,8 +7,8 @@ const assertFail = require("./helpers/assertFail");
 
 contract('Check ICO Initialisation', function (accounts) {
 
-  var saleStartTime = 1512129600;
-  var saleEndTime = 1517400000;
+  var saleStartTime = 1512475200;
+  var saleEndTime = 1517832000;
 
   var OWNER = accounts[0];
   var TEAM = "0x1";
