@@ -14,8 +14,8 @@ contract RealLandCrowdSale is TokenController, Ownable {
   uint public decimals = 8;
   uint etherRatio = SafeMath.div(1 ether, 10**decimals);
 
-  uint256 public saleStartTime = 1512129600;
-  uint256 public saleEndTime = 1517400000;
+  uint256 public saleStartTime = 1512475200;
+  uint256 public saleEndTime = 1517832000;
 
   uint256 public totalSupply = 70000000 * 10**decimals;
 
